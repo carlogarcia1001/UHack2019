@@ -30,7 +30,7 @@ import {createStackNavigator} from 'react-navigation-stack';
 import Home from "./app/screens/Home"
 
 const MainNavigator = createStackNavigator({
-  Home: {screen: Home},
+  Home: { screen: Home },
 });
 
 const App = createAppContainer(MainNavigator);
